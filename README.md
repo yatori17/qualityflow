@@ -41,6 +41,8 @@ A estratégia adotada na nossa *Lean Inception* delimitou claramente as fronteir
 ## 📋 3. Acordos de Trabalho (DoR e DoD)
 
 ### 🟩 Definition of Ready (DoR)
+
+#### História de Usuário (US)
 Para que uma História de Usuário seja selecionada para a Sprint, ela precisa obrigatoriamente cumprir:
 *   Descrição clara no formato padrão (*Como... Quero... Para...*).
 *   Critérios de aceitação definidos utilizando a sintaxe BDD (*Gherkin*).
@@ -48,7 +50,30 @@ Para que uma História de Usuário seja selecionada para a Sprint, ela precisa o
 *   Wireframe de baixa ou média fidelidade anexado à tarefa (se houver componente visual).
 *   Ausência de dependências ou bloqueios técnicos externos.
 
+#### Bug
+
+*   Passos claros para reprodução do erro.
+*   Comportamento esperado vs. atual descritos.
+*   Evidências anexadas (logs, payloads ou prints).
+*   Impacto/Severidade definido.
+*   Estimativa de esforço definida coletivamente em *Story Points* (Fibonacci).
+*   Ausência de dependências ou bloqueios técnicos externos.
+
+#### Tasks
+
+*   Objetivo técnico e escopo claros
+*   Estimativa de esforço definida coletivamente em *Story Points* (Fibonacci).
+*   Ausência de dependências ou bloqueios técnicos externos.
+
+#### Spike
+
+*   Pergunta clara a ser respondida ou hipótese a valida
+*   Estimativa de esforço definida coletivamente em *Story Points* (Fibonacci).
+*   Ausência de dependências ou bloqueios técnicos externos.
+
 ### 🟥 Definition of Done (DoD)
+
+#### História de Usuário (US)
 Uma entrega só é considerada concluída ("Pronta") se atender a todos os critérios:
 *   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
 *   Cobertura mínima de 80% em testes unitários automatizados.
@@ -56,6 +81,20 @@ Uma entrega só é considerada concluída ("Pronta") se atender a todos os crit�
 *   **Requisito Não Funcional (Performance):** O tempo de resposta da API do dashboard para renderização dos dados deve ser menor que **400ms**.
 *   Validação final e aceite funcional realizado pelo Product Owner em ambiente de staging.
 
+#### Bug
+*   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
+*   Cenário do bug coberto por teste automatizado.
+*   Validação funcional feita pelo PO ou QA em staging.
+
+#### Task
+*   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
+*   Cobertura mínima de 80% em testes unitários automatizados.
+*   Validação técnica/aceite realizada pelo Tech Lead ou time.
+
+#### Spike
+*   Documentação dos resultados gerada (Wiki/Confluence).
+*   Próximos passos mapeados (criação de US ou tarefas no backlog).
+*   Apresentação dos resultados para o time (se necessário).
 ---
 
 ## 📦 4. Estrutura do Repositório
