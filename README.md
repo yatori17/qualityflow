@@ -76,7 +76,7 @@ Para que uma História de Usuário seja selecionada para a Sprint, ela precisa o
 #### História de Usuário (US)
 Uma entrega só é considerada concluída ("Pronta") se atender a todos os critérios:
 *   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
-*   Cobertura mínima de 80% em testes unitários automatizados.
+*   Cobertura mínima de 80% em testes unitários OU automatizados.
 *   Autenticação e rotas protegidas via Spring Security através de tokens de projeto.
 *   **Requisito Não Funcional (Performance):** O tempo de resposta da API do dashboard para renderização dos dados deve ser menor que **400ms**.
 *   Validação final e aceite funcional realizado pelo Product Owner em ambiente de staging.
@@ -88,7 +88,7 @@ Uma entrega só é considerada concluída ("Pronta") se atender a todos os crit�
 
 #### Task
 *   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
-*   Cobertura mínima de 80% em testes unitários automatizados.
+*   Cobertura mínima de 80% em testes unitários OU automatizados.
 *   Validação técnica/aceite realizada pelo Tech Lead ou time.
 
 #### Spike
