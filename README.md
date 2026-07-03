@@ -108,7 +108,6 @@ Este repositório está organizado estritamente de acordo com as diretrizes da a
 *   `canvas-url.txt`: Arquivo com o link público do board do Miro (Lean Inception + MVP Canvas).
 *   `product-backlog.pdf`: Relatório completo extraído do JIRA contendo Épicos, Features e Histórias.
 *   `sprint-backlog.pdf`: Planejamento detalhado da Sprint 1 extraído do JIRA com estimativas e critérios.
-*   `video-showcase.mp4`: Vídeo demonstrativo da entrega (Showcase de 2 a 4 minutos).
 
 ---
 *Desenvolvido como parte do portfólio acadêmico de Gestão Ágil e Engenharia de Requisitos.*# QualityFlow 🚀
