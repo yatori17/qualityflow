@@ -76,24 +76,27 @@ Para que uma História de Usuário seja selecionada para a Sprint, ela precisa o
 #### História de Usuário (US)
 Uma entrega só é considerada concluída ("Pronta") se atender a todos os critérios:
 *   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
-*   Cobertura mínima de 80% em testes unitários OU automatizados.
-*   Autenticação e rotas protegidas via Spring Security através de tokens de projeto.
-*   **Requisito Não Funcional (Performance):** O tempo de resposta da API do dashboard para renderização dos dados deve ser menor que **400ms**.
-*   Validação final e aceite funcional realizado pelo Product Owner em ambiente de staging.
+*   Cobertura mínima de 80% em testes unitários automatizados.
+*   Todos os critérios de aceitação da história foram atendidos.
+*   Os requisitos não funcionais e de segurança aplicáveis à história foram implementados.
+*   Quando aplicável, o tempo de resposta das APIs críticas do MVP é inferior a 400 ms.
+*   Validação final e aceite funcional realizados pelo Product Owner no ambiente de desenvolvimento do projeto.
 
 #### Bug
 *   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
 *   Cenário do bug coberto por teste automatizado.
-*   Validação funcional feita pelo PO ou QA em staging.
+*   Validação final e aceite funcional realizados pelo Product Owner no ambiente de desenvolvimento do projeto.
 
 #### Task
 *   Código revisado via *Pull Request* por pelo menos um par de desenvolvimento.
-*   Cobertura mínima de 80% em testes unitários OU automatizados.
-*   Validação técnica/aceite realizada pelo Tech Lead ou time.
+*   Cobertura mínima de 80% em testes automatizados, quando aplicável.
+*   Validação técnica realizada pela equipe de desenvolvimento.
 
 #### Spike
+*   Objetivo da investigação atendido.
 *   Documentação dos resultados gerada (Wiki/Confluence).
 *   Próximos passos mapeados (criação de US ou tarefas no backlog).
+*   Recomendações e riscos identificados.
 *   Apresentação dos resultados para o time (se necessário).
 ---
 
